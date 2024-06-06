@@ -70,7 +70,7 @@ let toggle = ref(false);
         <div
           class="ms-8 flex flex-col justify-center sm:gap-[2.25rem] md:gap-[3rem] text-white mt-[2.25rem] tracking-[0.169rem] uppercase ff-sans-cond"
         >
-          <router-link active-class="border-b-[0.1875rem] w-max" class="mb-8" to="/"
+          <router-link active-class="border-b-2 w-max" class="mb-8" to="/"
             ><span class="sm:hidden font-bold md:inline-block">00</span>
             Home</router-link
           >
