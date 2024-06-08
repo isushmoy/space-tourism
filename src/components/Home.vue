@@ -34,7 +34,7 @@
         class="md:self-end flex justify-center items-center mt-[5.063rem] sm:mt-[8.5rem] md:mt-0 cursor-pointer"
       >
         <div
-          class="absolute w-[9.375rem] h-[9.375rem] sm:w-[15.125rem] sm:h-[15.125rem] md:w-[17.125rem] md:h-[17.125rem] bg-[#ffffff15] transition hover:scale-150 duration-500 rounded-full mx-auto flex justify-center items-center"
+          class="absolute w-[9.375rem] h-[9.375rem] sm:w-[15.125rem] sm:h-[15.125rem] md:w-[17.125rem] md:h-[17.125rem] bg-[#ffffff15] transition-all hover:scale-150 duration-500 rounded-full mx-auto flex justify-center items-center"
         ></div>
         <div
           class="w-[9.375rem] h-[9.375rem] sm:w-[15.125rem] sm:h-[15.125rem] md:w-[17.125rem] md:h-[17.125rem] bg-white rounded-full mx-auto flex justify-center items-center"
