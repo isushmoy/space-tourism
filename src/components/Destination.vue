@@ -29,7 +29,7 @@ const isActive = (key) => index.value === key;
         <div class="self-end mx-auto md:mx-0 w-[20.4375rem] sm:w-[35.8125rem] md:w-[27.75rem] md:text-start">
             <div class="nav w-[14.844rem] sm:w-[17.844rem] mx-auto md:mx-0 flex justify-center gap-[2.188rem] text-sm md:text-[1rem] md:justify-start">
                 <div v-for="(item, key) in content" :key="key">
-                    <button @click="index = key" :class="['inline uppercase ff-sans-cond tracking-[0.148rem] sm:tracking-[0.169rem] hover:border-b-2 hover:border-current pb-[0.5rem]', {'': !isActive(key), 'text-white border-b-2': isActive(key)}]">{{ item.name }}</button>
+                    <button @click="index = key" :class="['inline uppercase ff-sans-cond tracking-[0.148rem] sm:tracking-[0.169rem] hover:border-b-2 hover:border-[#ffffff50] pb-[0.5rem]', {'': !isActive(key), 'text-white border-b-2': isActive(key)}]">{{ item.name }}</button>
                 </div>
             </div>
             <div class="details divide-y-[1px] divide-[#383B4B] mt-[1rem]">

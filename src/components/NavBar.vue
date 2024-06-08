@@ -28,19 +28,19 @@ let toggle = ref(false);
       <div
         class="flex justify-center sm:gap-[2.25rem] md:gap-[3rem] text-white mt-[2.25rem] tracking-[0.169rem] uppercase ff-sans-cond"
       >
-        <router-link active-class="border-b-[0.1875rem] pb-8" to="/"
+        <router-link active-class="border-b-[0.1875rem] pb-8" class="hover:border-b-[0.1875rem] hover:border-[#ffffff50]" to="/"
           ><span class="sm:hidden font-bold md:inline-block">00</span>
           Home</router-link
         >
-        <router-link active-class="border-b-[0.1875rem] pb-8" to="/destination"
+        <router-link active-class="border-b-[0.1875rem] pb-8" class="hover:border-b-[0.1875rem] hover:border-[#ffffff50]" to="/destination"
           ><span class="sm:hidden font-bold md:inline-block">01</span>
           Destination</router-link
         >
-        <router-link active-class="border-b-[0.1875rem] pb-8" to="/crew"
+        <router-link active-class="border-b-[0.1875rem] pb-8" class="hover:border-b-[0.1875rem] hover:border-[#ffffff50]" to="/crew"
           ><span class="sm:hidden font-bold md:inline-block">02</span>
           Crew</router-link
         >
-        <router-link active-class="border-b-[0.1875rem] pb-8" to="/technology"
+        <router-link active-class="border-b-[0.1875rem] pb-8" class="hover:border-b-[0.1875rem] hover:border-[#ffffff50]" to="/technology"
           ><span class="sm:hidden font-bold md:inline-block">03</span>
           Technology</router-link
         >
@@ -70,21 +70,21 @@ let toggle = ref(false);
         <div
           class="ms-8 flex flex-col justify-center sm:gap-[2.25rem] md:gap-[3rem] text-white mt-[2.25rem] tracking-[0.169rem] uppercase ff-sans-cond"
         >
-          <router-link active-class="border-b-2 w-max" class="mb-8" to="/"
+          <router-link active-class="" class="hover:text-[#ffffff50] mb-8" to="/"
             ><span class="sm:hidden font-bold md:inline-block">00</span>
             Home</router-link
           >
           <router-link
-            active-class="border-b-2 w-max" class="mb-8"
+            active-class="" class="hover:text-[#ffffff50] mb-8"
             to="/destination"
             ><span class="sm:hidden font-bold md:inline-block">01</span>
             Destination</router-link
           >
-          <router-link active-class="border-b-2 w-max" to="/crew" class="mb-8"
+          <router-link active-class="" to="/crew" class="hover:text-[#ffffff50] mb-8"
             ><span class="sm:hidden font-bold md:inline-block">02</span>
             Crew</router-link
           >
-          <router-link active-class="border-b-2 w-max" to="/technology" class="mb-8"
+          <router-link active-class="" to="/technology" class="hover:text-[#ffffff50] mb-8"
             ><span class="sm:hidden font-bold md:inline-block">03</span>
             Technology</router-link
           >

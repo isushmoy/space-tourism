@@ -59,6 +59,10 @@
     --color-text: var(--vt-c-text-dark-2);
   }
 }
+/* Rocket Cursor */
+html, *:hover{
+  cursor: url('/src/assets/shared/icons8-rocket-36.png'), auto;
+}
 
 *,
 *::before,

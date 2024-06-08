@@ -83,6 +83,9 @@
 /* Reset           */
 /* --------------- */
 
+*{
+  cursor: url('../src/assets/shared/rocket.svg'), auto !important;
+}
 *,
 *::before,
 *::after {
@@ -109,6 +112,7 @@ body {
   background-color: hsl(var(--clr-dark));
   line-height: 1.5;
   min-height: 100vh;
+  /* cursor: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/42088/mario2.ico'), auto !important; */
   /* display: grid;
   grid-template-rows: min-content 1fr; */
 }
