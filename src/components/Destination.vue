@@ -10,7 +10,7 @@ const index = ref(0);
 const contentName = computed(() => content[index.value].name);
 const contentDescription = computed(() => content[index.value].description);
 
-const images = computed(() => content[index.value].images.png);
+const images = computed(() => content[index.value].images.webp);
 const distance = computed(() => content[index.value].distance);
 const travel = computed(() => content[index.value].travel);
 

@@ -10,7 +10,7 @@ const index = ref(0);
 const contentName = computed(() => content[index.value].name);
 const contentBio = computed(() => content[index.value].bio);
 
-const images = computed(() => content[index.value].images.png);
+const images = computed(() => content[index.value].images.webp);
 const role = computed(() => content[index.value].role);
 
 const isActive = (key) => index.value === key;
