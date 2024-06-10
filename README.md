@@ -45,5 +45,5 @@ Live Site: [Space Tourism Website](https://sushcod3.github.io/space-tourism/)
 
 ### Acknowledgments
 
-This project is a solution to the challenges provided by [Frontend Mentor](https://www.frontendmentor.io/solutions/ecommerce-product-page-tailwind-css-vuejs-E_EYltYZfi), with some additional features implemented by me.
+This project is a solution to the challenges provided by [Frontend Mentor](https://www.frontendmentor.io/solutions/space-tourism-website-using-vuejs-tailwind-css-gsap-and-vue-router-QE7Ddc2Y7q), with some additional features implemented by me.
 
