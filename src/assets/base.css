@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 :root {
   --vt-c-white: #ffffff;
   --vt-c-white-soft: #d0d6f9;
@@ -59,10 +58,6 @@
     --color-text: var(--vt-c-text-dark-2);
   }
 }
-/* Rocket Cursor */
-html, *:hover{
-  cursor: url('/src/assets/shared/icons8-rocket-36.png'), auto;
-}
 
 *,
 *::before,
@@ -94,20 +89,7 @@ select {
   font: inherit;
 }
 
-/* remove animations for those who prefers them off */
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
-}
-
 /* typography */
-
 .ff-serif {
   font-family: var(--ff-serif);
 }
@@ -116,4 +98,9 @@ select {
 }
 .ff-sans-normal {
   font-family: var(--ff-sans-normal);
+}
+
+/* Rocket Cursor */
+html, *:hover{
+  cursor: url('/src/assets/shared/icons8-rocket-36.png'), auto;
 }
