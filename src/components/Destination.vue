@@ -37,8 +37,8 @@ watch(index, () => {
     <div class="text-center pt-[5.5rem] sm:pt-[8.5rem] md:pt-[13.25rem] md:flex md:justify-around mx-auto md:max-w-[94rem]">
         <div class="onLoad">
             <h1 class="ff-sans-cond tracking-[0.169rem] sm:tracking-[0.211rem] md:tracking-[0.295rem] text-white mb-8 sm:mb-[3.75rem] md:mb-[6.0625rem] sm:ps-[2.40625rem] md:ps-0 sm:text-[1.25rem] sm:text-left md:text-[1.75rem]"><span class="text-[#ffffff28] font-bold">01</span> PICK YOUR DESTINATION</h1>
-            <div class="flex justify-center pb-6 sm:pb-[3.3125rem]">
-                <img :src="images" loading="lazy" class="appear h-[10.625rem] sm:h-[18.75rem] md:h-[27.8125rem]" alt="planet image">
+            <div class="appear flex justify-center pb-6 sm:pb-[3.3125rem]">
+                <img :src="images" loading="lazy" class="h-[10.625rem] sm:h-[18.75rem] md:h-[27.8125rem]" alt="planet image">
             </div>
         </div>
         <div class="onLoad self-end mx-auto md:mx-0 w-[20.4375rem] sm:w-[35.8125rem] md:w-[27.75rem] md:text-start">
