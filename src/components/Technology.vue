@@ -36,8 +36,8 @@ watch(() => {
             <div class="onLoad mb-[0.75rem]">
                 <h1 class="md:hidden ff-sans-cond sm:ps-[2.375rem] md:ps-0 tracking-[0.169rem] sm:tracking-[0.211rem] md:tracking-[0.295rem] text-white mb-8 sm:mb-[3.75rem] md:mb-[6.0625rem] sm:text-[1.25rem] sm:text-left md:text-[1.75rem]"><span class="text-[#ffffff28] font-bold">03</span> SPACE LAUNCH 101</h1>
                 <div class="appear flex justify-center pb-6 sm:pb-[3.3125rem] md:pb-0">
-                    <img :src="images" class="hidden md:block md:h-[32.938rem]" alt="technology image">
-                    <img :src="imagesLandscape" class="md:hidden h-[10.625rem] sm:h-[19.375rem]" alt="technology image">
+                    <img :src="images" loading="lazy" class="hidden md:block md:h-[32.938rem]" alt="technology image">
+                    <img :src="imagesLandscape" loading="lazy" class="md:hidden h-[10.625rem] sm:h-[19.375rem]" alt="technology image">
                 </div>
             </div>
             <div>

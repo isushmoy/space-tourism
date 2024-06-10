@@ -39,7 +39,7 @@ watch(() => {
                 <div class="mb-[2rem]">
                     <div class="border-b-[1px] border-[#383B4B] sm:border-0">
                         <div class="appear flex justify-center md:justify-start">
-                            <img :src="images" class="h-[13.938rem] sm:h-[35.75rem] md:h-[44.5rem]" alt="crew image">
+                            <img :src="images" loading="lazy" class="h-[13.938rem] sm:h-[35.75rem] md:h-[44.5rem]" alt="crew image">
                         </div>
                     </div>
                 </div>
