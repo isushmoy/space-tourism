@@ -10,8 +10,8 @@ const index = ref(0);
 const contentName = computed(() => content[index.value].name);
 const contentDescription = computed(() => content[index.value].description);
 
-const images = computed(() => "src" + content[index.value].images.portrait);
-const imagesLandscape = computed(() => "src" + content[index.value].images.landscape);
+const images = computed(() => content[index.value].images.portrait);
+const imagesLandscape = computed(() => content[index.value].images.landscape);
 
 const isActive = (key) => index.value === key;
 
@@ -30,7 +30,7 @@ watch(() => {
 </script>
 
 <template>
-<div class="min-h-screen bg-[url('../assets/technology/background-technology-mobile.jpg')] bg-cover bg-bottom sm:bg-[url('../assets/technology/background-technology-tablet.jpg')] md:bg-[url('../assets/technology/background-technology-desktop.jpg')]" role="main" aria-label="Background image of Technology">
+<div class="min-h-screen bg-[url('/assets/technology/background-technology-mobile.jpg')] bg-cover bg-bottom sm:bg-[url('/assets/technology/background-technology-tablet.jpg')] md:bg-[url('/assets/technology/background-technology-desktop.jpg')]" role="main" aria-label="Background image of Technology">
     <div class="text-center pt-[5.5rem] sm:pt-[8.5rem] md:pt-[13.25rem] md:flex md:flex-col mx-auto md:max-w-[94rem]">
         <div class=" md:flex md:justify-around md:flex-row-reverse">
             <div class="onLoad mb-[0.75rem]">

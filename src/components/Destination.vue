@@ -10,7 +10,7 @@ const index = ref(0);
 const contentName = computed(() => content[index.value].name);
 const contentDescription = computed(() => content[index.value].description);
 
-const images = computed(() => "src" + content[index.value].images.png);
+const images = computed(() => content[index.value].images.png);
 const distance = computed(() => content[index.value].distance);
 const travel = computed(() => content[index.value].travel);
 
@@ -33,7 +33,7 @@ watch(index, () => {
 </script>
 
 <template>
-<div class="min-h-screen bg-[url('../assets/destination/background-destination-mobile.jpg')] bg-cover bg-bottom sm:bg-[url('../assets/destination/background-destination-tablet.jpg')] md:bg-[url('../assets/destination/background-destination-desktop.jpg')]" alt="background-image-destination" role="main" aria-label="Background image of destination">
+<div class="min-h-screen bg-[url('/assets/destination/background-destination-mobile.jpg')] bg-cover bg-bottom sm:bg-[url('/assets/destination/background-destination-tablet.jpg')] md:bg-[url('/assets/destination/background-destination-desktop.jpg')]" alt="background-image-destination" role="main" aria-label="Background image of destination">
     <div class="text-center pt-[5.5rem] sm:pt-[8.5rem] md:pt-[13.25rem] md:flex md:justify-around mx-auto md:max-w-[94rem]">
         <div class="onLoad">
             <h1 class="ff-sans-cond tracking-[0.169rem] sm:tracking-[0.211rem] md:tracking-[0.295rem] text-white mb-8 sm:mb-[3.75rem] md:mb-[6.0625rem] sm:ps-[2.40625rem] md:ps-0 sm:text-[1.25rem] sm:text-left md:text-[1.75rem]"><span class="text-[#ffffff28] font-bold">01</span> PICK YOUR DESTINATION</h1>

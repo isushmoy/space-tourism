@@ -5,20 +5,24 @@ let toggle = ref(false);
 </script>
 
 <template>
-  <nav class="relative flex justify-between items-center m-[1.5rem]">
+  <nav class="relative flex justify-between items-center m-[1.5rem]" role="navigation" aria-label="Main Navigation">
+    <!-- Logo -->
     <div class="cursor-pointer">
       <img
         alt="space tourism logo"
         class="logo w-10 md:w-12 md:m-[2.5rem]"
-        src="../assets/shared/logo.svg"
+        src="/assets/shared/logo.svg"
       />
     </div>
+    <!-- Toggle Button -->
     <button
       class="sm:hidden fixed right-6"
       @click="(toggle = !toggle)"
+      aria-expanded="toggle" aria-controls="menu"
     >
-      <img src="../assets/shared/icon-hamburger.svg" alt="hamburger-menu" />
+      <img src="/assets/shared/icon-hamburger.svg" alt="hamburger-menu" />
     </button>
+    <!-- Menu Desktop -->
     <div class="hidden w-[80vw] md:block absolute ms-[10.438rem]">
       <div class="border-[#ffffff25] border-b-[0.0625rem] w-full"></div>
     </div>
@@ -46,7 +50,7 @@ let toggle = ref(false);
         >
       </div>
     </div>
-    <!-- menu -->
+    <!-- Menu Mobile -->
     <div
       v-if="toggle"
       class="sm:hidden fixed h-full w-full top-0 left-0 z-40"

@@ -10,7 +10,7 @@ const index = ref(0);
 const contentName = computed(() => content[index.value].name);
 const contentBio = computed(() => content[index.value].bio);
 
-const images = computed(() => "src" + content[index.value].images.png);
+const images = computed(() => content[index.value].images.png);
 const role = computed(() => content[index.value].role);
 
 const isActive = (key) => index.value === key;
@@ -31,7 +31,7 @@ watch(() => {
 </script>
 
 <template>
-<div class="min-h-screen bg-[url('../assets/crew/background-crew-mobile.jpg')] bg-cover bg-bottom sm:bg-[url('../assets/crew/background-crew-tablet.jpg')] md:bg-[url('../assets/crew/background-crew-desktop.jpg')]" role="main" aria-label="Background image of Crew">
+<div class="min-h-screen bg-[url('/assets/crew/background-crew-mobile.jpg')] bg-cover bg-bottom sm:bg-[url('/assets/crew/background-crew-tablet.jpg')] md:bg-[url('/assets/crew/background-crew-desktop.jpg')]" role="main" aria-label="Background image of Crew">
     <div class="text-center pt-[5.5rem] sm:pt-[8.5rem] md:pt-[13.25rem] mx-auto md:max-w-[94rem]">
         <div class="onLoad">
             <div class=" sm:flex flex-col-reverse md:flex-row-reverse md:justify-around">

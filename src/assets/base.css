@@ -102,5 +102,5 @@ select {
 
 /* Rocket Cursor */
 html, *:hover{
-  cursor: url('/src/assets/shared/icons8-rocket-36.png'), auto;
+  cursor: url('/assets/shared/icons8-rocket-36.png'), auto;
 }

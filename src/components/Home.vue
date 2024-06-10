@@ -14,7 +14,7 @@ watchEffect(() => {
 
 <template>
   <div
-    class="min-h-screen mt-0 top-0 bg-[url('../assets/home/background-home-mobile.jpg')] bg-cover bg-center sm:bg-[url('../assets/home/background-home-tablet.jpg')] md:bg-[url('../assets/home/background-home-desktop.jpg')]"
+    class="min-h-screen mt-0 top-0 bg-[url('/assets/home/background-home-mobile.jpg')] bg-cover bg-center sm:bg-[url('/assets/home/background-home-tablet.jpg')] md:bg-[url('/assets/home/background-home-desktop.jpg')]"
     role="main" aria-label="Background image of Space"
   >
     <div
