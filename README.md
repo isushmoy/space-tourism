@@ -2,7 +2,7 @@
 
 Welcome to the Space Tourism Website! It's meticulously designed for a seamless journey across all devices. With accessibility in mind and captivating animations, it ensures an immersive experience for all users.
 
-Live Site: [Space Tourism Website](https://sushcod3.github.io/space-tourism/)
+Live Site: [Space Tourism Website](https://isushmoy.github.io/space-tourism/)
 
 ## Table of contents
 
